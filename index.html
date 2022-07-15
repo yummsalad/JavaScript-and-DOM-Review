@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Illinois Campsites</title>
+</head>
+<body>
+    <header>
+        <h1>Available Campsites</h1>
+    </header>
+
+    <main>
+        <div class="horizontal-3">
+            <div class = 'sidebar'>
+                <h2>Campsites List</h2>
+                <div class="campsites-list"></div>
+
+            </div>
+            <div class = 'campsites-cards'>
+                <h2>All Campsites</h2>
+                <div id='cards-container'>
+                    <div class="card" id="campsiteID">
+                        <h3>Campsite Name</h3>
+                        <img src="https://destination-ontario-prod.s3.ca-central-1.amazonaws.com/files/s3fs-public/2022-03/learn-to-camp-quetico.jpg?VersionId=ZFf5v.A_L.XK9TNDx9o1uUEan62HsE93" class="mainImg">
+                        
+                        <div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>123 Main Street, Chicago, Illinois 60123</p> 
+                            </div>
+                            <div>
+                                <h4>Contact</h4>
+                                <div id="phone">
+                                    <p>Phone:</p>
+                                    <a href="tel:630-232-5980">630-232-5980</a>
+                                </div>
+                                <div id="email">
+                                    <p>Email:</p>
+                                    <a href="mailTo: info.logan@gmail.com">info.logan@gmail.com</a>
+                                </div>
+                            </div>
+                            <div>
+                                <h4>Description</h4>
+                                <p id="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                            <div>
+                                <h4>Amenities</h4>
+                                <ul id="amenitiesList">
+                                    <li>Water</li>
+                                    <li>Day Parking</li>
+                                </ul>
+
+                                <button id="ReserveButton">Reserve Now</button>
+
+                                <div>
+                                    <h4>Reviews</h4>
+                                    <div id="reviews">
+                                        <p id="stars">⭐⭐⭐⭐⭐</p>
+                                        <p id="review-paragraph">Better experience than last year.</p>
+                                        <div>
+                                            <p id="username" style="font-weight: 800; font-size: small;">Username</p>
+                                            <p id="submittedOn" style="font-size: small;">Submitted On</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>

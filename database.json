@@ -1,0 +1,89 @@
+{
+    "campsites":[
+
+        {
+            "siteName" : "Camp Bullfrog Lake",
+            "id" : "Campbull",
+            "location":{
+                "address": "9600 Wolf Road",
+                "city": "Willow Springs",
+                "state": "Illinois",
+                "zip": "60480"
+            },
+            "contact":{
+                "phoneNumber": "312-636-9785",
+                "emailAddress": "info@cookcountycamping.com" 
+            },
+            "website": "https://fpdcc.com/places/locations/camp-bullfrog-lake/",
+            "image": "https://fpdcc.com/wp-content/uploads/2018/09/camp-bullfrog-lake-nov16-1050x600.jpg",
+            "description": "Camp Bullfrog Lake offers year-round camping, group activities and water-based recreation such as kayak rentals and fishing.",
+            "amenities":[
+                "day parking", "tent camping", "RV camping", "electricity", "water", "showers", "accessible indoor bathrooms", "hiking trails", "bicycling", "fishing", "boat rentals"
+            ],
+            "reservationURL": "https://anc.apm.activecommunities.com/fpdcc/reservation/search?locale=en-US&eventTypeIds=18",
+            "reviews": [
+                {"username": "baseballpuppycandy", "submittedOn": "10/16/2018", "reviewStars": 3, "message": "This is the closest campground to Chicago that we found on our trip. It’s about 45 minutes to the west loop from here. I tried to book online and had a lot of trouble, I tried to call and couldn’t get through."},
+                {"username": "fluteoldeuboitunepie", "submittedOn": "07/14/2012", "reviewStars": 1, "message": "Booked a week-long camping reservation a couple months ahead of time, and my plans changed so I was forced to cancel my trip.  I've been trying for a week to get ahold of someone through either FPCC or the camp itself to cancel my reservation and request a refund, but it's impossible to get ahold of anyone."},
+                {"username": "sunaquarius", "submittedOn": "12/09/2003", "reviewStars": 4, "message": "Cabins are pretty nice. Beautiful views. Awesome fishing."}
+            ]
+        },
+        
+        {
+
+            "siteName" : "Paul Wolff Campground",
+            "id" : "PaulWolff",
+            "location":{
+                "address": "38W235 Big Timber Road",
+                "city": "Elgin",
+                "state": "Illinois",
+                "zip": "60124"
+            },
+            "contact":{
+                "phoneNumber": "630-232-5980",
+                "emailAddress": null
+            },
+            "website": "https://kaneforest.com/location/paul-wolff",
+            "image": "https://thedyrt.imgix.net/photo/432027/media/illinois-burnidge-forest-preserve-paul-wolff-campground_d2de3bebc0e4f8b54f8415909ca0b908.jpeg",
+            "description": "Paul Wolff Campground contains 89 improved, vehicle camp sites with 50-amp electrical service, water access, parking pad and fire ring. Improved camp sites are available to vehicle campers or tent campers.",
+            "amenities":[
+                "electricity", "water", "day parking", "tent camping", "horseback riding", "winter activities", "fishing"
+            ],
+            "reservationURL": null,
+            "reviews": [
+                {"username": "Bert Schweinler", "submittedOn": "07/02/2022", "reviewStars": "4", "message": "Better experience than last year. Seems to be more tents using the RV spots rather than the primitive areas."},
+                {"username": "Linda Halka", "submittedOn": "04/25/2021", "reviewStars": "5", "message": "Love the clean modern campsites, with nice big firepit area and paved parking pads. The addition of 1 bathroom with flush toilets was a pleasant surprise."},
+                {"username": "Dave Locke", "submittedOn": "11/18/2019", "reviewStars": "3", "message": "Clean, well kept, not enough seclusion. All sites had 30&50 amp and water. $35 a night for non-residents."}
+            ]
+
+        },
+
+        {
+
+            "siteName" : "Thomas Woods Campground",
+            "id" : "ThomasWoods",
+            "location":{
+                "address": "3100 IL-23",
+                "city": "Marengo",
+                "state": "Illinois",
+                "zip": "60152"
+            },
+            "contact":{
+                "phoneNumber": "815-338-6223 ext. 1211",
+                "emailAddress": "MCCD@MCCDistrict.org"
+            },
+            "website": "https://www.mccdistrict.org/visit___explore/things_to_do/camp/individual_camping/index.php",
+            "image": "https://files.mccdistrict.org//photo_gallery/Camping/OnPage_TW_IMG_20180803_185734292.jpg",
+            "description": "Thomas Woods Campground is in the Marengo Ridge Conservation Area and part of the McHenry County Conservation District. The District has five group campgrounds located throughout the county, one over night cyclist camping location, and one campground for individuals and families which accommodates both tents and RVs.",
+            "amenities":[
+                "water", "day parking", "tent camping", "RV camping", "winter activities", "fishing", "cyclist camping"
+            ],
+            "reservationURL": "https://apm.activecommunities.com/mccdistrict/ActiveNet_Home?FileName=onlineimapshow.sdi;jsessionid=3nzeibbj3xhnkhgjrsgje3k7&interactive_map_id=18",
+            "reviews": [
+                {"username": "robert M.", "submittedOn": "07/04/2021", "reviewStars": "4", "message": "The campground is small the rv sites are shallow and close to the road but otherwise most are fairly private. The staff was friendly all in all not a bad place."},
+                {"username": "Marisa", "submittedOn": "10/09/2020", "reviewStars": "5", "message": "Limited to weekend camping, but spread out private-like tent sites. Camp hosts are super engaged and seem to love being caretakers. Hand pumps for water and well-kept pit toilets. Hiking galore! My 'leashed' dog loves this place, as do I."},
+                {"username": "Ride_of _a_life", "submittedOn": "06/07/2021", "reviewStars": "5", "message": "The most amazing hosts and great people. Very welcoming and wonderful to deal with they made our trip epic."}
+            ]
+
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: #F1EDEC;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h3, h4, p { 
+    margin: 0px;
+}
+
+h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+a{
+    color: black;
+}
+
+ul{
+    margin-top: 5px;
+}
+
+.horizontal-3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.sidebar{
+    background-color: #ffb9b4;
+    min-height: 500px;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.campsites-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.campsites-cards{
+    background-color: #EED8C7;
+    min-height: 500px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+        overflow-y: scroll;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 700px;
+}
+
+#cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+#reviews{
+    border: 1px solid black;
+    padding: 10px;
+}
+
